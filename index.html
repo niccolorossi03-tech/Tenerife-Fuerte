@@ -1,42 +1,11 @@
-<!doctype html>
-<html lang="it">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Canarie Agosto · Travel App</title>
-<link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="data.js"></script>
-</head>
-<body>
-<header class="hero"><p>9–18 agosto · Tenerife + Fuerteventura</p><h1>🌴 Canarie Travel App</h1><span>Guida finale con mappa, itinerario, spiagge, attività, serate e consigli pratici.</span></header>
-<nav>
-<button class="tab active" data-view="home">🏠 Home</button>
-<button class="tab" data-view="mapview">🗺️ Mappa</button>
-<button class="tab" data-view="itinerary">📅 Itinerario</button>
-<button class="tab" data-view="places">📍 Luoghi</button>
-<button class="tab" data-view="nightlife">🎉 Serate</button>
-<button class="tab" data-view="tips">💡 Tips</button>
-</nav>
-
-<section id="home" class="view active">
-<div class="stats"><div><b id="countdown">—</b><span>giorni alla partenza</span></div><div><b>2</b><span>isole</span></div><div><b id="nplaces">—</b><span>punti salvati</span></div><div><b>10</b><span>giorni</span></div></div>
-<div class="grid"><article><h2>🔥 Da prenotare prima</h2><ul><li>Teide sunset & stargazing</li><li>Whale watching</li><li>Siam Park</li><li>Isla de Lobos / catamarano</li><li>Buggy a Corralejo</li></ul></article><article><h2>⭐ Must assoluti</h2><ul><li>Teide</li><li>Benijo</li><li>Masca + Garachico</li><li>Dune Corralejo</li><li>Playa del Moro</li><li>El Cotillo al tramonto</li></ul></article></div>
-</section>
-
-<section id="mapview" class="view"><div class="filters"><button class="chip active" data-island="Tutte">Tutte</button><button class="chip" data-island="Tenerife">Tenerife</button><button class="chip" data-island="Fuerteventura">Fuerteventura</button><button class="chip active" data-cat="Tutte">Tutto</button><button class="chip" data-cat="Spiaggia">🏖️ Spiagge</button><button class="chip" data-cat="Escursione">🌋 Escursioni</button><button class="chip" data-cat="Attività">🚤 Attività</button><button class="chip" data-cat="Serata">🎉 Serate</button><button class="chip" data-cat="Pratico">🛒 Pratico</button></div><div id="leaflet"></div></section>
-
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Canarie V3 · Travel App</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="data.js"></script></head><body>
+<header class="hero"><p>9–18 agosto · 4 amici · Tenerife + Fuerteventura</p><h1>🌴 Canarie Travel App 3.0</h1><span>Mappa, itinerario, spiagge, attività, serate, budget, preferiti, checklist e piano B.</span></header>
+<nav><button class="tab active" data-view="home">🏠 Home</button><button class="tab" data-view="mapview">🗺️ Mappa</button><button class="tab" data-view="itinerary">📅 Itinerario</button><button class="tab" data-view="places">📍 Luoghi</button><button class="tab" data-view="favorites">❤️ Preferiti</button><button class="tab" data-view="budget">💰 Budget</button><button class="tab" data-view="checklist">✅ Checklist</button><button class="tab" data-view="tips">💡 Tips</button></nav>
+<section id="home" class="view active"><div class="stats"><div><b id="countdown">—</b><span>giorni alla partenza</span></div><div><b>2</b><span>isole</span></div><div><b id="nplaces">—</b><span>punti salvati</span></div><div><b>10</b><span>giorni</span></div></div><div class="grid"><article><h2>🔥 Must da prenotare</h2><ul><li>Teide sunset & stargazing</li><li>Whale watching da Puerto Colón</li><li>Siam Park o jet ski</li><li>Isla de Lobos / catamarano</li><li>Buggy a Corralejo</li></ul></article><article><h2>🎉 Serate consigliate</h2><ul><li>9 ago: Veronicas o Monkey soft</li><li>13 ago: Papagayo + Tramps</li><li>17 ago: Waikiki Corralejo</li><li>Non strafare prima di Teide e road trip</li></ul></article><article><h2>🌅 Tramonti top</h2><ul><li>Benijo</li><li>Mirador de Chipeque</li><li>Los Gigantes</li><li>Dune Corralejo</li><li>El Cotillo</li></ul></article><article><h2>⚡ Piano B</h2><ul><li>Troppo vento: Las Teresitas, Las Vistas, El Cotillo Lagoons</li><li>Troppa stanchezza: spiagge vicine + aperitivo</li><li>Nuvole sul Teide: Siam Park o road trip sud</li></ul></article></div></section>
+<section id="mapview" class="view"><div class="filters"><button class="chip active" data-island="Tutte">Tutte</button><button class="chip" data-island="Tenerife">Tenerife</button><button class="chip" data-island="Fuerteventura">Fuerteventura</button><button class="chip active" data-cat="Tutte">Tutto</button><button class="chip" data-cat="Spiaggia">🏖️ Spiagge</button><button class="chip" data-cat="Escursione">🌋 Escursioni</button><button class="chip" data-cat="Attività">🚤 Attività</button><button class="chip" data-cat="Serata">🎉 Serate</button><button class="chip" data-cat="Cibo">🍽️ Cibo</button><button class="chip" data-cat="Pratico">🛒 Pratico</button></div><div id="leaflet"></div></section>
 <section id="itinerary" class="view"><div id="itineraryList" class="cards"></div></section>
 <section id="places" class="view"><input id="search" placeholder="Cerca luogo, attività, spiaggia..."><div id="placeCards" class="cards"></div></section>
-<section id="nightlife" class="view"><div id="nightCards" class="cards"></div></section>
-<section id="tips" class="view"><div class="cards">
-<article><h2>🎒 Cosa portare</h2><p>Felpa per Teide, scarpe comode, crema solare alta, acqua in auto, powerbank, supporto telefono.</p></article>
-<article><h2>🌬️ Vento e mare</h2><p>A Fuerteventura controllate vento e onde prima di scegliere la spiaggia. El Cotillo spesso è più protetta.</p></article>
-<article><h2>🚗 Auto</h2><p>Partite presto nei road trip. Tenete benzina e acqua, soprattutto a Fuerteventura.</p></article>
-<article><h2>🍹 Serate</h2><p>Fate le serate forti il 9/13/17. Evitate notte pesante prima del Teide o dei road trip lunghi.</p></article>
-<article><h2>📸 Foto</h2><p>Spot migliori: Benijo, Chipeque, Teide, Dune, Playa del Moro, El Cotillo, Calderón Hondo.</p></article>
-<article><h2>🅿️ Parcheggi</h2><p>Per le spiagge più famose andate presto. Tenete sempre scarpe o ciabatte adatte per sterrati e rocce.</p></article>
-</div></section>
-<script src="app.js"></script>
-</body></html>
+<section id="favorites" class="view"><div id="favCards" class="cards"></div></section>
+<section id="budget" class="view"><div class="budgetbox"><h2>💰 Budget stimato gruppo</h2><p>Modifica i valori: vengono salvati sul dispositivo.</p><div id="budgetRows"></div><div class="total"><span>Totale gruppo</span><b id="totalGroup">—</b></div><div class="total"><span>Totale a testa</span><b id="totalEach">—</b></div></div></section>
+<section id="checklist" class="view"><div class="cards" id="checkCards"></div></section>
+<section id="tips" class="view"><div class="cards"><article><h2>🎒 Cosa portare</h2><p>Felpa per Teide, scarpe comode, crema solare alta, acqua in auto, powerbank, supporto telefono.</p></article><article><h2>🌬️ Vento e mare</h2><p>A Fuerteventura controllate vento e onde prima di scegliere la spiaggia. El Cotillo spesso è più protetta.</p></article><article><h2>🚗 Auto</h2><p>Partite presto nei road trip. Tenete benzina e acqua, soprattutto a Fuerteventura.</p></article><article><h2>🍹 Serate</h2><p>Fate le serate forti il 9/13/17. Evitate notte pesante prima del Teide o dei road trip lunghi.</p></article><article><h2>📸 Foto</h2><p>Spot migliori: Benijo, Chipeque, Teide, Dune, Playa del Moro, El Cotillo, Calderón Hondo.</p></article><article><h2>🎟️ Prenotazioni</h2><p>Tenete screenshot/voucher offline per attività, noleggio auto e voli inter-isola.</p></article></div></section><script src="app.js"></script></body></html>

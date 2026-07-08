@@ -1,64 +1,68 @@
-﻿Isola,Categoria,Nome,Lat,Lon,Voto,Prezzo,Momento,Durata,Distanza,Note,Icona
-Tenerife,Base,Playa de las Américas,28.058,-16.73,9.5,—,Tutto il viaggio,Base,0 min,"Base migliore per voi: nightlife, ristoranti, spiagge vicine e partenza comoda per il sud.",🌴
-Tenerife,Spiaggia,Playa de Las Vistas,28.055,-16.724,8.5,Gratis,Mattina,1-3 h,5 min,"Spiaggia comoda vicino alla base, mare spesso calmo.",🏖️
-Tenerife,Spiaggia,Playa de Troya,28.062,-16.732,7.8,Gratis,Pausa veloce,1-2 h,0-5 min,La spiaggia più pratica se non volete muovervi.,🏖️
-Tenerife,Spiaggia,Playa del Duque,28.092,-16.742,9.2,Gratis / lettini extra,Pomeriggio,2-4 h,15 min,"Spiaggia elegante, perfetta per relax e aperitivo.",🏖️
-Tenerife,Spiaggia,Playa Fañabé,28.086,-16.738,8.2,Gratis,Pomeriggio,2-3 h,10 min,"Molto servita, tanti bar e beach club.",🏖️
-Tenerife,Spiaggia,Playa Diego Hernández,28.085,-16.761,9.5,Gratis,Mattina,2-3 h,20 min + camminata,Spiaggia selvaggia e fotogenica: portate acqua e scarpe.,🏖️
-Tenerife,Spiaggia,Playa La Tejita,28.044,-16.556,8.8,Gratis,Tramonto,2-3 h,25 min,"Grande spiaggia naturale ai piedi di Montaña Roja, spesso ventosa.",🏖️
-Tenerife,Spiaggia,Playa El Médano,28.045,-16.536,8.1,Gratis,Pomeriggio,1-3 h,25 min,"Atmosfera surf/windsurf, paesino giovane.",🏄
-Tenerife,Spiaggia,Playa de Benijo,28.569,-16.191,10,Gratis,Tramonto,1-2 h,1h30,"Sabbia nera, faraglioni, uno degli spot più belli dell’isola.",🏖️
-Tenerife,Spiaggia,Playa de Las Teresitas,28.507,-16.185,9,Gratis,Mattina,2-4 h,1h10,"Sabbia dorata e acqua calma, ottima con Anaga/Santa Cruz.",🏖️
-Tenerife,Spiaggia,Playa Abama,28.184,-16.812,8.7,Gratis,Mattina,2 h,30 min,"Bella caletta, accesso con scale/camminata.",🏖️
-Tenerife,Escursione,Parco Nazionale del Teide,28.272,-16.642,10,Gratis / tour 60-90 €,Tramonto + stelle,4-6 h,1h10,Il must assoluto: tramonto e osservazione stelle.,🌋
-Tenerife,Panorama,Mirador de Chipeque,28.392,-16.426,9.6,Gratis,Tramonto,1 h,1h20,"Vista Teide sopra le nuvole, top per foto.",🌅
-Tenerife,Escursione,Masca,28.304,-16.836,9.5,Gratis,Mattina,2-3 h,1h15,"Villaggio panoramico spettacolare, strada lenta.",🌋
-Tenerife,Escursione,Garachico,28.373,-16.765,8.8,Gratis,Pomeriggio,1-2 h,1h20,Piscine naturali e centro storico.,🌊
-Tenerife,Panorama,Los Gigantes,28.245,-16.841,9,Gratis,Tramonto,1-2 h,40 min,"Scogliere enormi, perfetto dopo whale watching.",🌅
-Tenerife,Escursione,Anaga Rural Park,28.536,-16.267,10,Gratis,Mattina,Mezza giornata,1h25,"Foresta, mirador e strade panoramiche.",🌿
-Tenerife,Panorama,Mirador Pico del Inglés,28.533,-16.278,9,Gratis,Mattina,30 min,1h25,Uno dei migliori mirador di Anaga.,🌅
-Tenerife,Escursione,Icod de los Vinos,28.366,-16.717,7.7,Gratis,Road trip,45 min,1h10,Pausa breve per il Drago Millenario.,🌳
-Tenerife,Escursione,Montaña Roja,28.035,-16.553,8.5,Gratis,Tramonto,1-1.5 h,25 min,Mini trekking facile vicino a La Tejita.,🥾
-Tenerife,Panorama,Roques de García,28.223,-16.631,9.3,Gratis,Teide day,1 h,1h05,Passeggiata facile tra formazioni vulcaniche.,🌋
-Tenerife,Attività,Siam Park,28.071,-16.726,9.5,45-60 €,Mattina presto,Mezza/intera giornata,5 min,Parco acquatico top. Ad agosto conviene prenotare prima.,🎢
-Tenerife,Attività,Whale Watching - Puerto Colón,28.078,-16.737,9.3,35-70 €,Mattina,2-3 h,10 min,Meglio barca piccola o catamarano medio.,🐋
-Tenerife,Attività,Jet Ski Costa Adeje,28.088,-16.735,8.5,80-140 €,Mattina,1-2 h,10 min,Safari da 1h+ più bello del giro breve.,🚤
-Tenerife,Attività,Parapendio Costa Adeje,28.113,-16.729,9.1,110-170 €,Mattina,2 h,20 min,Esperienza spettacolare se il vento è buono.,🪂
-Tenerife,Attività,Diving Los Cristianos,28.05,-16.717,8.2,70-100 €,Mattina,2-3 h,10 min,Possibile anche prima esperienza sub.,🤿
-Tenerife,Cibo,Los Cristianos,28.05,-16.717,8.2,€€,Sera,2 h,10 min,"Buona zona per cena, passeggiata e bar.",🍽️
-Tenerife,Pratico,Mercadona Adeje,28.091,-16.729,8,€,Arrivo,30 min,10 min,"Spesa acqua, snack e colazioni.",🛒
-Tenerife,Pratico,Siam Mall,28.068,-16.722,7.5,Variabile,Quando serve,1-2 h,5 min,Shopping e cibo veloce vicino alla base.,🛍️
-Tenerife,Serata,Papagayo Beach Club,28.056,-16.73,9.2,Variabile,Notte,Sera/notte,0-5 min,Serata più bella/elegante a Playa de las Américas.,🎉
-Tenerife,Serata,Veronicas Strip,28.055,-16.731,8.3,Variabile,Dopo mezzanotte,Notte,0-5 min,Zona giovane e caotica: serata ignorante.,🍻
-Tenerife,Serata,Tramps Tenerife,28.0556,-16.7315,8.5,Variabile,Notte,Notte,0-5 min,Club famoso nella zona Veronicas.,🎧
-Tenerife,Serata,Monkey Beach Club,28.06,-16.733,8.8,Cocktail,Tramonto,1-2 h,0-5 min,Ottimo aperitivo/pre-serata sul mare.,🍹
-Tenerife,Serata,Magic Lounge Club,28.062,-16.727,8.4,Variabile,Dopo cena,Sera,5 min,Locale/lounge nella zona Safari Centre.,🍸
-Tenerife,Serata,Achaman Discopub,28.087,-16.731,8.1,Variabile,Notte,Notte,10 min,Musica latina/reggaeton.,💃
-Fuerteventura,Base,Corralejo,28.739,-13.867,9.5,—,Tutto il viaggio,Base,0 min,"Base perfetta per dune, Lobos, locali e attività.",🌴
-Fuerteventura,Spiaggia,Grandes Playas Corralejo,28.706,-13.841,10,Gratis,Mattina,2-4 h,10 min,Le spiagge delle dune: must assoluto.,🏖️
-Fuerteventura,Spiaggia,Playa del Moro,28.715,-13.844,10,Gratis,Mattina,2-4 h,10 min,Una delle più belle vicino Corralejo.,🏖️
-Fuerteventura,Spiaggia,Playa Bajo Negro,28.735,-13.895,9,Gratis,Mattina,2-3 h,10 min,Bella e spesso meno affollata.,🏖️
-Fuerteventura,Spiaggia,Popcorn Beach,28.747,-13.913,8.2,Gratis,Pomeriggio,30-60 min,15 min,"Da vedere per foto, non per passarci ore.",📸
-Fuerteventura,Spiaggia,Majanicho,28.756,-13.942,8,Gratis,Pomeriggio,1 h,20 min,"Costa selvaggia, ottima per giro breve.",🌊
-Fuerteventura,Spiaggia,Playa de la Concha,28.685,-14.008,9.8,Gratis,Pomeriggio + tramonto,2-4 h,30 min,"Top a El Cotillo: bagno, relax e tramonto.",🏖️
-Fuerteventura,Spiaggia,El Cotillo Lagoons,28.694,-14.01,9.3,Gratis,Pomeriggio,2 h,30 min,Lagune più calme se il vento è gestibile.,🏖️
-Fuerteventura,Spiaggia,Playa del Castillo - El Cotillo,28.679,-14.009,8.8,Gratis,Tramonto,1-2 h,30 min,Molto scenografica per chiudere la giornata.,🌅
-Fuerteventura,Spiaggia,Cofete,28.091,-14.415,10,Gratis,Giornata intera,Giornata intera,2h15,Spettacolare ma lontanissima da Corralejo.,🏖️
-Fuerteventura,Spiaggia,Playa Esmeralda,28.143,-14.227,9.5,Gratis,Mattina,2-3 h,1h50,Bellissima ma molto a sud rispetto a Corralejo.,🏖️
-Fuerteventura,Escursione,Dune di Corralejo,28.706,-13.841,10,Gratis,Alba o tramonto,1-3 h,10 min,"Must assoluto, belle per foto e passeggiata.",🏜️
-Fuerteventura,Escursione,Calderón Hondo,28.651,-13.948,9.2,Gratis,Mattina presto/tramonto,1.5-2 h,20 min,"Trekking facile su vulcano, molto panoramico.",🌋
-Fuerteventura,Panorama,Faro de El Tostón,28.715,-14.013,8.5,Gratis,Tramonto,30-60 min,35 min,Da abbinare a El Cotillo.,🌅
-Fuerteventura,Escursione,Betancuria,28.424,-14.056,8.6,Gratis,Mattina,2-3 h,1h15,"Paese interno, bello se fate giornata on the road.",🌄
-Fuerteventura,Panorama,Mirador de Guise y Ayose,28.449,-14.049,8.8,Gratis,Road trip,20 min,1h10,Vista interna dell’isola.,🌅
-Fuerteventura,Attività,Isla de Lobos - Porto Corralejo,28.741,-13.866,10,Ferry 18-25 € / catamarano 60-90 €,Mattina,Mezza giornata,0-5 min,Una delle esperienze migliori da Corralejo.,🏝️
-Fuerteventura,Attività,Buggy Tour Corralejo,28.739,-13.867,9.4,70-120 €,Mattina/pomeriggio,2-3 h,0-10 min,"Perfetto per 4 amici, sterrati e paesaggi vulcanici.",🚙
-Fuerteventura,Attività,Surf School Corralejo,28.739,-13.869,8.8,45-70 €,Onde permettendo,2-3 h,0-10 min,Ottimo per provare surf da principianti.,🏄
-Fuerteventura,Attività,Catamarano Lobos,28.741,-13.866,9.2,60-90 €,Mattina/pranzo,4 h,0-5 min,"Drink, SUP/kayak spesso inclusi.",⛵
-Fuerteventura,Attività,Snorkeling Isla de Lobos,28.748,-13.819,9,Incluso in tour / low cost,Mattina,1-2 h,Barca,"Acqua bellissima, ideale con tour Lobos.",🤿
-Fuerteventura,Cibo,Centro di Corralejo,28.738,-13.87,8.5,€€,Sera,2 h,0 min,"Zona ristoranti, bar e locali.",🍽️
-Fuerteventura,Pratico,Mercadona Corralejo,28.727,-13.869,8,€,Arrivo,30 min,5 min,"Spesa acqua, snack, colazioni.",🛒
-Fuerteventura,Serata,Waikiki Beach Club,28.739,-13.868,8.8,Variabile,Notte,Notte,0 min,Riferimento per uscire a Corralejo.,🎉
-Fuerteventura,Serata,Music Square Corralejo,28.738,-13.87,8.2,Drink,Dopo cena,Sera,0 min,"Vari locali vicini, buona per iniziare la serata.",🎶
-Fuerteventura,Serata,Rock Island Bar,28.738,-13.869,8.1,Drink,Sera,Sera,0 min,"Live music, più chill.",🎸
-Fuerteventura,Serata,Avenida Nuestra Señora del Carmen,28.736,-13.869,8,Variabile,Sera,Sera,0 min,Passeggiata centrale piena di bar e locali.,🍻
-Fuerteventura,Serata,Sunset Lounge Corralejo,28.741,-13.866,8.5,Cocktail,Tramonto,1-2 h,0-5 min,Buono per aperitivo zona porto/lungomare.,🍹
+﻿Isola,Categoria,Nome,Lat,Lon,Voto,Prezzo,Momento,Durata,Distanza,Note,Icona,Tags
+Tenerife,Base,Playa de las Américas,28.058,-16.73,9.5,—,Sempre,Base,0 min,"Base perfetta per movida, spiagge, ristoranti e partenza escursioni.",🌴,base nightlife
+Tenerife,Spiaggia,Playa de Las Vistas,28.055,-16.724,8.5,Gratis,Mattina,1-3 h,5 min,"Spiaggia comoda vicino alla base, mare spesso calmo.",🏖️,mare calmo vicino
+Tenerife,Spiaggia,Playa de Troya,28.062,-16.732,7.8,Gratis,Pausa veloce,1-2 h,0-5 min,La spiaggia più pratica se non volete muovervi.,🏖️,vicino pratica
+Tenerife,Spiaggia,Playa del Duque,28.092,-16.742,9.2,Gratis / lettini extra,Pomeriggio,2-4 h,15 min,"Spiaggia elegante, perfetta per relax e aperitivo.",🏖️,relax elegante
+Tenerife,Spiaggia,Playa Fañabé,28.086,-16.738,8.2,Gratis,Pomeriggio,2-3 h,10 min,"Molto servita, tanti bar e beach club.",🏖️,bar beach club
+Tenerife,Spiaggia,Playa Diego Hernández,28.085,-16.761,9.5,Gratis,Mattina,2-3 h,20 min + camminata,Spiaggia selvaggia e fotogenica: portate acqua e scarpe.,🏖️,selvaggia foto
+Tenerife,Spiaggia,Playa La Tejita,28.044,-16.556,8.8,Gratis,Tramonto,2-3 h,25 min,"Grande spiaggia naturale ai piedi di Montaña Roja, spesso ventosa.",🏖️,vento tramonto
+Tenerife,Spiaggia,Playa El Médano,28.045,-16.536,8.1,Gratis,Pomeriggio,1-3 h,25 min,"Atmosfera surf/windsurf, paesino giovane.",🏄,surf vento
+Tenerife,Spiaggia,Playa de Benijo,28.569,-16.191,10,Gratis,Tramonto,1-2 h,1h30,"Sabbia nera, faraglioni, uno degli spot più belli dell’isola.",🏖️,tramonto foto anaga
+Tenerife,Spiaggia,Playa de Las Teresitas,28.507,-16.185,9,Gratis,Mattina,2-4 h,1h10,"Sabbia dorata e acqua calma, ottima con Anaga/Santa Cruz.",🏖️,mare calmo anaga
+Tenerife,Spiaggia,Playa Abama,28.184,-16.812,8.7,Gratis,Mattina,2 h,30 min,"Bella caletta, accesso con scale/camminata.",🏖️,caletta
+Tenerife,Spiaggia,Playa Jardín,28.414,-16.553,8,Gratis,Se passate da Puerto,1-2 h,1h20,"Spiaggia nera a Puerto de la Cruz, fuori zona ma bella.",🏖️,sabbia nera
+Tenerife,Escursione,Parco Nazionale del Teide,28.272,-16.642,10,Gratis / tour 60-90 €,Tramonto + stelle,4-6 h,1h10,Il must assoluto: tramonto e osservazione stelle.,🌋,stelle tramonto must
+Tenerife,Panorama,Mirador de Chipeque,28.392,-16.426,9.6,Gratis,Tramonto,1 h,1h20,"Vista Teide sopra le nuvole, top per foto.",🌅,tramonto foto teide
+Tenerife,Escursione,Masca,28.304,-16.836,9.5,Gratis,Mattina,2-3 h,1h15,"Villaggio panoramico spettacolare, strada lenta.",🌋,roadtrip panorama
+Tenerife,Escursione,Garachico,28.373,-16.765,8.8,Gratis,Pomeriggio,1-2 h,1h20,Piscine naturali e centro storico.,🌊,piscine naturali
+Tenerife,Panorama,Los Gigantes,28.245,-16.841,9,Gratis,Tramonto,1-2 h,40 min,"Scogliere enormi, perfetto dopo whale watching.",🌅,tramonto scogliere
+Tenerife,Escursione,Anaga Rural Park,28.536,-16.267,10,Gratis,Mattina,Mezza giornata,1h25,"Foresta, mirador e strade panoramiche.",🌿,natura roadtrip
+Tenerife,Panorama,Mirador Pico del Inglés,28.533,-16.278,9,Gratis,Mattina,30 min,1h25,Uno dei migliori mirador di Anaga.,🌅,anaga foto
+Tenerife,Escursione,Icod de los Vinos,28.366,-16.717,7.7,Gratis,Road trip,45 min,1h10,Pausa breve per il Drago Millenario.,🌳,roadtrip
+Tenerife,Escursione,Montaña Roja,28.035,-16.553,8.5,Gratis,Tramonto,1-1.5 h,25 min,Mini trekking facile vicino a La Tejita.,🥾,trekking tramonto
+Tenerife,Panorama,Roques de García,28.223,-16.631,9.3,Gratis,Teide day,1 h,1h05,Passeggiata facile tra formazioni vulcaniche.,🌋,teide foto
+Tenerife,Attività,Siam Park,28.071,-16.726,9.5,45-60 €,Mattina presto,Mezza/intera giornata,5 min,Parco acquatico top. Ad agosto conviene prenotare prima.,🎢,adrenalina acqua
+Tenerife,Attività,Whale Watching - Puerto Colón,28.078,-16.737,9.3,35-70 €,Mattina,2-3 h,10 min,Meglio barca piccola o catamarano medio.,🐋,barca delfini balene
+Tenerife,Attività,Jet Ski Costa Adeje,28.088,-16.735,8.5,80-140 €,Mattina,1-2 h,10 min,Safari da 1h+ più bello del giro breve.,🚤,adrenalina mare
+Tenerife,Attività,Parapendio Costa Adeje,28.113,-16.729,9.1,110-170 €,Mattina,2 h,20 min,Esperienza spettacolare se il vento è buono.,🪂,adrenalina foto
+Tenerife,Attività,Diving Los Cristianos,28.05,-16.717,8.2,70-100 €,Mattina,2-3 h,10 min,Possibile anche prima esperienza sub.,🤿,snorkel mare
+Tenerife,Cibo,Los Cristianos,28.05,-16.717,8.2,€€,Sera,2 h,10 min,"Buona zona per cena, passeggiata e bar.",🍽️,cena bar
+Tenerife,Cibo,Costa Adeje,28.091,-16.74,8.4,€€,Cena/aperitivo,2 h,10-15 min,"Zona ricca di ristoranti, beach bar e locali sul mare.",🍽️,cena aperitivo
+Tenerife,Pratico,Mercadona Adeje,28.091,-16.729,8,€,Arrivo,30 min,10 min,"Spesa acqua, snack e colazioni.",🛒,spesa
+Tenerife,Pratico,Siam Mall,28.068,-16.722,7.5,Variabile,Quando serve,1-2 h,5 min,Shopping e cibo veloce vicino alla base.,🛍️,shopping
+Tenerife,Serata,Papagayo Beach Club,28.056,-16.73,9.2,Variabile,Notte,Sera/notte,0-5 min,Serata più bella/elegante a Playa de las Américas.,🎉,club beach
+Tenerife,Serata,Veronicas Strip,28.055,-16.731,8.3,Variabile,Dopo mezzanotte,Notte,0-5 min,Zona giovane e caotica: serata ignorante.,🍻,nightlife
+Tenerife,Serata,Tramps Tenerife,28.0556,-16.7315,8.5,Variabile,Notte,Notte,0-5 min,Club famoso nella zona Veronicas.,🎧,club
+Tenerife,Serata,Monkey Beach Club,28.06,-16.733,8.8,Cocktail,Tramonto,1-2 h,0-5 min,Ottimo aperitivo/pre-serata sul mare.,🍹,aperitivo tramonto
+Tenerife,Serata,Magic Lounge Club,28.062,-16.727,8.4,Variabile,Dopo cena,Sera,5 min,Locale/lounge nella zona Safari Centre.,🍸,lounge
+Tenerife,Serata,Achaman Discopub,28.087,-16.731,8.1,Variabile,Notte,Notte,10 min,Musica latina/reggaeton.,💃,latino reggaeton
+Fuerteventura,Base,Corralejo,28.739,-13.867,9.5,—,Sempre,Base,0 min,"Base perfetta per dune, Lobos, locali e attività.",🌴,base nightlife
+Fuerteventura,Spiaggia,Grandes Playas Corralejo,28.706,-13.841,10,Gratis,Mattina,2-4 h,10 min,Le spiagge delle dune: must assoluto.,🏖️,dune mare
+Fuerteventura,Spiaggia,Playa del Moro,28.715,-13.844,10,Gratis,Mattina,2-4 h,10 min,Una delle più belle vicino Corralejo.,🏖️,mare top
+Fuerteventura,Spiaggia,Playa Bajo Negro,28.735,-13.895,9,Gratis,Mattina,2-3 h,10 min,Bella e spesso meno affollata.,🏖️,tranquilla
+Fuerteventura,Spiaggia,Popcorn Beach,28.747,-13.913,8.2,Gratis,Pomeriggio,30-60 min,15 min,"Da vedere per foto, non per passarci ore.",📸,foto
+Fuerteventura,Spiaggia,Majanicho,28.756,-13.942,8,Gratis,Pomeriggio,1 h,20 min,"Costa selvaggia, ottima per giro breve.",🌊,selvaggia
+Fuerteventura,Spiaggia,Playa de la Concha,28.685,-14.008,9.8,Gratis,Pomeriggio + tramonto,2-4 h,30 min,"Top a El Cotillo: bagno, relax e tramonto.",🏖️,tramonto mare
+Fuerteventura,Spiaggia,El Cotillo Lagoons,28.694,-14.01,9.3,Gratis,Pomeriggio,2 h,30 min,Lagune più calme se il vento è gestibile.,🏖️,mare calmo
+Fuerteventura,Spiaggia,Playa del Castillo - El Cotillo,28.679,-14.009,8.8,Gratis,Tramonto,1-2 h,30 min,Molto scenografica per chiudere la giornata.,🌅,tramonto
+Fuerteventura,Spiaggia,Cofete,28.091,-14.415,10,Gratis,Giornata intera,Giornata intera,2h15,Spettacolare ma lontanissima da Corralejo.,🏖️,roadtrip epica
+Fuerteventura,Spiaggia,Playa Esmeralda,28.143,-14.227,9.5,Gratis,Mattina,2-3 h,1h50,Bellissima ma molto a sud rispetto a Corralejo.,🏖️,mare sud
+Fuerteventura,Escursione,Dune di Corralejo,28.706,-13.841,10,Gratis,Alba o tramonto,1-3 h,10 min,"Must assoluto, belle per foto e passeggiata.",🏜️,dune tramonto
+Fuerteventura,Escursione,Calderón Hondo,28.651,-13.948,9.2,Gratis,Mattina presto/tramonto,1.5-2 h,20 min,"Trekking facile su vulcano, molto panoramico.",🌋,trekking vulcano
+Fuerteventura,Panorama,Faro de El Tostón,28.715,-14.013,8.5,Gratis,Tramonto,30-60 min,35 min,Da abbinare a El Cotillo.,🌅,tramonto
+Fuerteventura,Escursione,Betancuria,28.424,-14.056,8.6,Gratis,Mattina,2-3 h,1h15,"Paese interno, bello se fate giornata on the road.",🌄,roadtrip
+Fuerteventura,Panorama,Mirador de Guise y Ayose,28.449,-14.049,8.8,Gratis,Road trip,20 min,1h10,Vista interna dell’isola.,🌅,panorama
+Fuerteventura,Attività,Isla de Lobos - Porto Corralejo,28.741,-13.866,10,Ferry 18-25 € / catamarano 60-90 €,Mattina,Mezza giornata,0-5 min,Una delle esperienze migliori da Corralejo.,🏝️,barca snorkeling
+Fuerteventura,Attività,Buggy Tour Corralejo,28.739,-13.867,9.4,70-120 €,Mattina/pomeriggio,2-3 h,0-10 min,"Perfetto per 4 amici, sterrati e paesaggi vulcanici.",🚙,adrenalina
+Fuerteventura,Attività,Surf School Corralejo,28.739,-13.869,8.8,45-70 €,Onde permettendo,2-3 h,0-10 min,Ottimo per provare surf da principianti.,🏄,surf
+Fuerteventura,Attività,Catamarano Lobos,28.741,-13.866,9.2,60-90 €,Mattina/pranzo,4 h,0-5 min,"Drink, SUP/kayak spesso inclusi.",⛵,barca relax
+Fuerteventura,Attività,Snorkeling Isla de Lobos,28.748,-13.819,9,Incluso in tour / low cost,Mattina,1-2 h,Barca,"Acqua bellissima, ideale con tour Lobos.",🤿,snorkeling
+Fuerteventura,Cibo,Centro di Corralejo,28.738,-13.87,8.5,€€,Sera,2 h,0 min,"Zona ristoranti, bar e locali.",🍽️,cena bar
+Fuerteventura,Cibo,El Cotillo,28.683,-14.009,8.6,€€,Tramonto/cena,2-3 h,30 min,Ottimo per cena dopo spiaggia e tramonto.,🍽️,cena tramonto
+Fuerteventura,Pratico,Mercadona Corralejo,28.727,-13.869,8,€,Arrivo,30 min,5 min,"Spesa acqua, snack, colazioni.",🛒,spesa
+Fuerteventura,Pratico,Aeroporto Fuerteventura,28.452,-13.863,7,—,Arrivo/partenza,—,35-40 min,Ritiro/consegna auto e voli.,✈️,aeroporto
+Fuerteventura,Serata,Waikiki Beach Club,28.739,-13.868,8.8,Variabile,Notte,Notte,0 min,Riferimento per uscire a Corralejo.,🎉,club
+Fuerteventura,Serata,Music Square Corralejo,28.738,-13.87,8.2,Drink,Dopo cena,Sera,0 min,"Vari locali vicini, buona per iniziare la serata.",🎶,bar
+Fuerteventura,Serata,Rock Island Bar,28.738,-13.869,8.1,Drink,Sera,Sera,0 min,"Live music, più chill.",🎸,live
+Fuerteventura,Serata,Avenida Nuestra Señora del Carmen,28.736,-13.869,8,Variabile,Sera,Sera,0 min,Passeggiata centrale piena di bar e locali.,🍻,nightlife
+Fuerteventura,Serata,Sunset Lounge Corralejo,28.741,-13.866,8.5,Cocktail,Tramonto,1-2 h,0-5 min,Buono per aperitivo zona porto/lungomare.,🍹,aperitivo
