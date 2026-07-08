@@ -2,72 +2,41 @@
 <html lang="it">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Canarie Agosto · Tenerife & Fuerteventura</title>
+<title>Canarie Agosto · Travel App</title>
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="data.js"></script>
 </head>
 <body>
-<header class="hero">
-  <div>
-    <p class="eyebrow">9–18 agosto · 4 amici · auto a noleggio</p>
-    <h1>🌴 Canarie Travel Guide</h1>
-    <p>Tenerife + Fuerteventura: mappa, attività, spiagge, serate, itinerario e consigli pratici.</p>
-  </div>
-</header>
-
-<nav class="topnav">
-  <button class="tab active" data-view="dashboard">🏠 Home</button>
-  <button class="tab" data-view="map">🗺️ Mappa</button>
-  <button class="tab" data-view="itinerary">📅 Itinerario</button>
-  <button class="tab" data-view="places">📍 Luoghi</button>
-  <button class="tab" data-view="tips">💡 Tips</button>
+<header class="hero"><p>9–18 agosto · Tenerife + Fuerteventura</p><h1>🌴 Canarie Travel App</h1><span>Guida finale con mappa, itinerario, spiagge, attività, serate e consigli pratici.</span></header>
+<nav>
+<button class="tab active" data-view="home">🏠 Home</button>
+<button class="tab" data-view="mapview">🗺️ Mappa</button>
+<button class="tab" data-view="itinerary">📅 Itinerario</button>
+<button class="tab" data-view="places">📍 Luoghi</button>
+<button class="tab" data-view="nightlife">🎉 Serate</button>
+<button class="tab" data-view="tips">💡 Tips</button>
 </nav>
 
-<section id="dashboard" class="view active">
-  <div class="stats">
-    <div><b id="countdown">—</b><span>giorni alla partenza</span></div>
-    <div><b>2</b><span>isole</span></div>
-    <div><b>40+</b><span>luoghi salvati</span></div>
-    <div><b>10</b><span>giorni pianificati</span></div>
-  </div>
-  <div class="grid2">
-    <article class="panel"><h2>🔥 Must do</h2><ul>
-      <li>Teide al tramonto + stelle</li><li>Whale watching da Puerto Colón</li><li>Siam Park o jet ski</li>
-      <li>Isla de Lobos</li><li>Buggy a Corralejo</li><li>Tramonto a El Cotillo</li>
-    </ul></article>
-    <article class="panel"><h2>🎉 Serate</h2><ul>
-      <li>Tenerife: Papagayo, Tramps, Veronicas, Monkey</li><li>Fuerteventura: Waikiki, Music Square, Rock Island</li>
-      <li>Evitate serata pesante prima del Teide/road trip lungo</li>
-    </ul></article>
-  </div>
+<section id="home" class="view active">
+<div class="stats"><div><b id="countdown">—</b><span>giorni alla partenza</span></div><div><b>2</b><span>isole</span></div><div><b id="nplaces">—</b><span>punti salvati</span></div><div><b>10</b><span>giorni</span></div></div>
+<div class="grid"><article><h2>🔥 Da prenotare prima</h2><ul><li>Teide sunset & stargazing</li><li>Whale watching</li><li>Siam Park</li><li>Isla de Lobos / catamarano</li><li>Buggy a Corralejo</li></ul></article><article><h2>⭐ Must assoluti</h2><ul><li>Teide</li><li>Benijo</li><li>Masca + Garachico</li><li>Dune Corralejo</li><li>Playa del Moro</li><li>El Cotillo al tramonto</li></ul></article></div>
 </section>
 
-<section id="map" class="view">
-  <div class="filters">
-    <button class="chip active" data-island="Tutte">Tutte</button><button class="chip" data-island="Tenerife">Tenerife</button><button class="chip" data-island="Fuerteventura">Fuerteventura</button>
-    <button class="chip active" data-cat="Tutte">Tutto</button><button class="chip" data-cat="Spiaggia">🏖️ Spiagge</button><button class="chip" data-cat="Escursione">🌋 Escursioni</button><button class="chip" data-cat="Attività">🚤 Attività</button><button class="chip" data-cat="Serata">🎉 Serate</button>
-  </div>
-  <div id="leaflet"></div>
-</section>
+<section id="mapview" class="view"><div class="filters"><button class="chip active" data-island="Tutte">Tutte</button><button class="chip" data-island="Tenerife">Tenerife</button><button class="chip" data-island="Fuerteventura">Fuerteventura</button><button class="chip active" data-cat="Tutte">Tutto</button><button class="chip" data-cat="Spiaggia">🏖️ Spiagge</button><button class="chip" data-cat="Escursione">🌋 Escursioni</button><button class="chip" data-cat="Attività">🚤 Attività</button><button class="chip" data-cat="Serata">🎉 Serate</button><button class="chip" data-cat="Pratico">🛒 Pratico</button></div><div id="leaflet"></div></section>
 
 <section id="itinerary" class="view"><div id="itineraryList" class="cards"></div></section>
-
-<section id="places" class="view">
-  <input id="search" placeholder="Cerca spiaggia, attività, locale..." />
-  <div id="placeCards" class="cards"></div>
-</section>
-
-<section id="tips" class="view">
-  <div class="cards">
-    <article class="card"><h2>🎒 Cosa portare</h2><p>Felpa per Teide, scarpe comode, crema solare forte, acqua in auto, powerbank, supporto telefono.</p></article>
-    <article class="card"><h2>🌬️ Vento e spiagge</h2><p>A Fuerteventura controllate vento e onde prima di scegliere la spiaggia. El Cotillo spesso è più protetta.</p></article>
-    <article class="card"><h2>🎟️ Prenotazioni</h2><p>Ad agosto prenotate prima Teide/stargazing, whale watching, Siam Park, Lobos e buggy.</p></article>
-    <article class="card"><h2>🚗 Auto</h2><p>Partite presto nei road trip lunghi. Tenete sempre benzina e acqua, soprattutto a Fuerteventura.</p></article>
-  </div>
-</section>
-
+<section id="places" class="view"><input id="search" placeholder="Cerca luogo, attività, spiaggia..."><div id="placeCards" class="cards"></div></section>
+<section id="nightlife" class="view"><div id="nightCards" class="cards"></div></section>
+<section id="tips" class="view"><div class="cards">
+<article><h2>🎒 Cosa portare</h2><p>Felpa per Teide, scarpe comode, crema solare alta, acqua in auto, powerbank, supporto telefono.</p></article>
+<article><h2>🌬️ Vento e mare</h2><p>A Fuerteventura controllate vento e onde prima di scegliere la spiaggia. El Cotillo spesso è più protetta.</p></article>
+<article><h2>🚗 Auto</h2><p>Partite presto nei road trip. Tenete benzina e acqua, soprattutto a Fuerteventura.</p></article>
+<article><h2>🍹 Serate</h2><p>Fate le serate forti il 9/13/17. Evitate notte pesante prima del Teide o dei road trip lunghi.</p></article>
+<article><h2>📸 Foto</h2><p>Spot migliori: Benijo, Chipeque, Teide, Dune, Playa del Moro, El Cotillo, Calderón Hondo.</p></article>
+<article><h2>🅿️ Parcheggi</h2><p>Per le spiagge più famose andate presto. Tenete sempre scarpe o ciabatte adatte per sterrati e rocce.</p></article>
+</div></section>
 <script src="app.js"></script>
-</body>
-</html>
+</body></html>
